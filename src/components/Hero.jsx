@@ -20,7 +20,7 @@ const Hero = () => {
         priority
         className="object-cover -z-10"
       />
-      <div className="absolute top-0 py-4 lg:py-10 text-green-100 flex items-center justify-center w-full text-xl ">
+      <div className="absolute top-0 py-4 lg:py-10 text-green-100 flex items-center justify-center w-full text-xl px-10 lg:px-6 ">
         <Navbar />
       </div>
       <div className="container max-w-7xl mx-auto  min-h-screen flex items-center justify-between py-36 px-10 lg:px-6 lg:py-48">
