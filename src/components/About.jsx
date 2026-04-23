@@ -45,7 +45,7 @@ const About = () => {
               living.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-2  px-4 py-6 rounded-3xl place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4  px-4 py-6 rounded-3xl place-items-center">
             {
                 rotatedImages.map((item,index)=>(
                    <div  key={index} >

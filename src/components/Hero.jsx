@@ -12,7 +12,7 @@ const domine = Domine({
 });
 const Hero = () => {
   return (
-    <div className="relative w-full min-h-screen overflow-hidden px-10 lg:px-6">
+    <div className="relative w-full min-h-screen overflow-hidden ">
       <Image
         src={heroImage}
         alt="vastu background image"
@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="absolute top-0 py-4 lg:py-10 text-green-100 flex items-center justify-center w-full text-xl ">
         <Navbar />
       </div>
-      <div className="container max-w-7xl mx-auto  min-h-screen flex items-center justify-between py-36 lg:py-48">
+      <div className="container max-w-7xl mx-auto  min-h-screen flex items-center justify-between py-36 px-10 lg:px-6 lg:py-48">
         
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-36 items-center text-white">
         

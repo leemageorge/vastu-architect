@@ -32,10 +32,10 @@ const Navbar = () => {
     </div>
     {
       isMenuOpen && (
-        <div className='bg-green-950 z-50 flex flex-col lg:hidden items-center justify-between gap-6 py-10 text-xl w-full absolute top-full left-0 border-t border-white/20'>
+        <div className='bg-green-950 z-9999 flex flex-col lg:hidden items-center justify-between gap-6 py-10 text-xl w-full absolute top-16 left-0 border-t border-white/20'>
           {
             navbarLinks.map((item,index)=>(
-              <Link key={index} href={item.link}>
+              <Link key={index} href={item.link} className='text-green-100'>
                 {item.name}
               </Link>
             ))
