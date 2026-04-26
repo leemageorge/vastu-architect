@@ -50,13 +50,13 @@ const BlogPage = () => {
               harmony, and well-being.
             </p>
             <div className="flex  items-center gap-4 ">
-              <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-2xl ">
+              <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-lg lg:rounded-2xl ">
                 View
               </span>
-              <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-2xl ">
+              <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-lg lg:rounded-2xl ">
                 Tips
               </span>
-              <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-2xl ">
+              <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-lg lg:rounded-2xl ">
                 Support
               </span>
             </div>
@@ -120,8 +120,19 @@ const BlogPage = () => {
           blogContents.map((blog,index)=>(
             <div className="space-y-2" key={index}>
               <Image  src={blog.image} alt={blog.title} className="w-96 h-72 rounded-2xl object-cover"/>
-                <h3>{blog.title}</h3>
-                <p>{blog.desc}</p>
+                <h3 className="text-md lg:text-lg ">{blog.title}</h3>
+                <p className="text-sm lg:text-md text-gray-600">{blog.desc}</p>
+                      <div className="flex flex-wrap items-center gap-4 ">
+                <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-lg lg:rounded-2xl ">
+                  View
+                </span>
+                <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-lg lg:rounded-2xl ">
+                  Tips
+                </span>
+                <span className="border border-green-900 lg:px-6 px-2 py-1 rounded-lg lg:rounded-2xl ">
+                  Support
+                </span>
+              </div>
             </div>
           ))
         }
