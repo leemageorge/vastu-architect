@@ -18,7 +18,7 @@ const ContactForm = () => {
                 <textarea type="text" placeholder='Enter Message' rows={5} className='outline-none resize-none border-b border-white/20 px-4 py-2 rounded-lg' />
             </div>
            <div className='flex items-center justify-center'>
-             <button className='bg-amber-500 rounded-br-2xl rounded-tl-2xl px-6 py-2 text-xl'>Submit</button>
+             <button className='bg-amber-300 rounded-br-2xl rounded-tl-2xl px-6 py-2 text-xl'>Submit</button>
            </div>
             
             </div>

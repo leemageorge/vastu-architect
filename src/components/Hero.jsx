@@ -45,7 +45,7 @@ const Hero = () => {
               and happiness. Contact us today for a consultation!
             </p>
             </div>
-            <a href="tel:+919000000000" className="bg-amber-500 px-6 py-3 rounded-bl-2xl rounded-tr-2xl text-white">Get A Consultation</a>
+            <a href="tel:+919000000000" className="bg-amber-300 px-6 py-3 rounded-bl-2xl rounded-tr-2xl text-white">Get A Consultation</a>
           </div>
           <div className="relative w-full">
             <ContactForm />
