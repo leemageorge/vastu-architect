@@ -6,7 +6,7 @@ import { services } from "@/data/data";
 const ServicePage = () => {
   return (
     <div>
-      <div className="bg-amber-400 px-10 lg:px-6">
+      <div className="bg-amber-400 px-10 lg:px-6 text-xl">
         <Navbar />
       </div>
       <div className="container max-w-7xl mx-auto py-18 ">

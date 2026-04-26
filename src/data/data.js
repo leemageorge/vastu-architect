@@ -6,10 +6,10 @@ export const navbarLinks = [{
     name: "Services",
     link:"/services"
 },
-{
-    name: "About",
-    link:"/about"
-},
+// {
+//     name: "About",
+//     link:"/about"
+// },
 {
     name: "Blog",
     link:"/blog"
@@ -128,3 +128,37 @@ export const services = [
     icon: Lightbulb,
   },
 ];
+
+import horse from "../assets/10.webp"
+import buddha from "../assets/11.jpg"
+import nature from "../assets/12.webp"
+import water from "../assets/13.jpg"
+import mountain from "../assets/14.jpg"
+ 
+export const blogContents = [
+  {
+    title: "Horse Paintings: Capturing Power, Freedom, and Grace",
+    desc: "Horse paintings symbolize strength, speed, and untamed freedom. Their dynamic energy and elegant forms bring life and movement into any space, making them a bold and inspiring décor choice.",
+    image: horse
+  },
+  {
+    title:"Buddha Paintings: Bringing Peace and Mindfulness into Your Space",
+    desc:"Buddha paintings create a calming and spiritual atmosphere filled with serenity and balance. They are perfect for promoting relaxation, positivity, and inner peace in homes and workspaces.",
+    image: buddha
+  },
+  {
+    title : "Nature Paintings: Connecting Your Space with the Beauty of the Outdoors",
+    desc: "Nature paintings reflect the harmony and freshness of the natural world. From lush greenery to scenic landscapes, they bring a refreshing and peaceful vibe to any interior.",
+    image:nature
+  },
+  {
+    title: "Flowing Water Paintings: Symbol of Calmness and Positive Energy",
+    desc: "Flowing water artwork represents movement, purity, and continuous flow of life. These paintings create a soothing ambiance and are often associated with positivity and abundance.",
+    image: water
+  },
+  {
+    title: "Mountain Paintings: Strength, Stability, and Timeless Beauty",
+    desc:"Mountain paintings represent resilience, determination, and natural grandeur. Their majestic presence adds depth, strength, and inspiration to any room.",
+    image:mountain
+  }
+]  
